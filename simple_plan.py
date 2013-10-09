@@ -123,7 +123,7 @@ def doBacktrack(assignment, csp):
 
 def main():
     times = [13, 14, 15, 16, 17]
-    classes = {13: ['CS1100', 'CS1331',  'CS4495'], 14: ['CS4001'], 15: ['CS4001', 'CS4290', 'CS4605'], 16: ['CS4641', 'CS1332'], 17: ['CS4001', 'CS2340']}
+    classes = {13: ['CS1100', 'CS1331',  'CS4495'], 14: ['CS4001'], 15: ['CS4001', 'CS4290', 'CS4605'], 16: ['CS4641', 'CS1332'], 17: ['CS4001']}
     csp = ConstraintSatisfactionProblem(times, lambda time: classes[time])
 
     assignment = backtrack(csp)
