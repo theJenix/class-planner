@@ -1,0 +1,3 @@
+[submodule "course_parser"]
+	path = course_parser
+	url = https://github.com/theJenix/course_parser
